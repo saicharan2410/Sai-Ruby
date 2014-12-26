@@ -19,7 +19,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <%= link_to "Music Manager", new_music_path, class: "navbar-brand" %>
+            <%= link_to "Music Manager", "https://saisoundmanager.herokuapp.com", class: "navbar-brand" %>
             <!--<a class="navbar-brand" href="http://localhost:3000">Music Manager</a> -->
           </div>
           <div id="navbar" class="navbar-collapse collapse">
@@ -29,16 +29,17 @@
               <li><a href="#">Contact</a></li>
             </ul>
           </div><!--/.nav-collapse -->
-          <footer class="footer">
-    <!--  <div class="container"> -->
-        <p class="text-muted"> © Sai Charan Pathyam</p>
-   <!--   </div> -->
-    </footer>
-        </div><!--/.container-fluid -->
+           </div><!--/.container-fluid -->
       </nav>
 <div class="container">
 	<%= yield %>
 </div>
 
 </body>
+   <footer class="footer">
+    <!--  <div class="container"> -->
+        <p class="text-muted"> © Sai Charan Pathyam</p>
+   <!--   </div> -->
+    </footer>
+       
 </html>
