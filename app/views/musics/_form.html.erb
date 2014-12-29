@@ -11,23 +11,13 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :name %><br>
-    <%= f.text_field :name %>
-  </div>
-  <div class="field">
-    <%= f.label :format %><br>
-    <%= f.text_field :format %>
-  </div>
-  <div class="field">
-    <%= f.label :length %><br>
-    <%= f.text_field :length %>
-  </div>
-  <div class="field">
-    <%= f.label :size %><br>
-    <%= f.text_field :size %>
-  </div>
-  <div class="form-actions">
+  <div class="container col-xs-3">
+    <%= f.input :name, placeholder: 'Music Name' %>
+    <%= f.input :format,placeholder: 'Mp3,Mp4,..etc..' %>
+    <%= f.input :length, placeholder: 'hh:mm:ss' %>
+    <%= f.input :size, placeholder: 'Mb,Gb' %>
     <%= f.button :submit %>
   </div>
+  <div class="container">
+    </div>
 <% end %>
