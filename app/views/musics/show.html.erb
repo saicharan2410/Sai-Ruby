@@ -19,7 +19,6 @@
   <strong>Size:</strong>
   <%= @music.size %>
 </p>
-
-<%= link_to 'Edit', edit_music_path(@music) %> |
-<%= link_to 'Back', musics_path %>
+<%= link_to 'Edit', edit_music_path(@music), class: "btn btn-default btn-xs" %>
+<%= link_to 'Back', musics_path, class: "btn btn-default btn-xs" %>
 </div>
